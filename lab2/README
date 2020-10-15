@@ -1,0 +1,35 @@
+Vincent To 500824873
+
+towersMain is the main program file of the towers of Hanoi, 
+towers contains a recursive algorithm to solve the towers given as arguments in the terminal.
+to use the program use the command 
+
+towers <n> <from> <dest>
+
+where n is the number of disks, from is starting location, and dest is the end location
+
+There are some conditions to the input the program will accept.
+it will not accept numbers higher than 3 in the arguments <from> or <dest> (only 3 tower ID's 1,2,3)
+it will not accept matching numbers for arguments <from> or <dest> (example towers 3 2 2)
+it will not accept negative numbers 
+it will not accept a value of 0 in any location
+it will not accept string as a valid input
+it will not accept only 2 arguments, it will however accept 0, 1 or 3 arguments
+
+running the command with no arguments will proceed to sort 3 disks moving them from tower 1 to tower 2
+running the command with only 1 argument will proceed to sort the disks given in the 1st argument from tower 1 to tower 2
+
+files junk1 junk2 and pureStdout are files that contain the output from testing the stdout and stderr speration as per mention in lab manual.
+
+last tested 01/27/2020 and everything was in working order.
+
+Questions:
+1. if you call towers (5,2,3) it will recursively call towers (4,2,1)
+
+2. there will be 5 recursive calls to towers until it returns to its initial invcocation
+
+3. the move that towers (5,2,3) will make is moving the first disk from tower 2 to tower 3
+
+4. the second recursive call to towers () will be towers (0,3,2)
+
+5. if towers (8,1,2) was invoked, there will be 255 lines of output.

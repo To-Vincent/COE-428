@@ -1,0 +1,25 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include "towers.h"
+
+int main(int argc, char **argv, int fromID, unsigned int destID)
+{
+    int n = 3;
+    int from = 1;
+    int dest = 2;
+
+    if (argc > 1) 
+    {
+        n = atoi(argv[1]);
+    }
+    
+    if (fromID = destID)
+    {
+	fprintf(stderr,"invalid input");
+    }
+
+    towers(n, from, dest);
+
+    exit(0);
+}
+
