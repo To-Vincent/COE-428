@@ -1,0 +1,10 @@
+Vincent To 500824873
+
+State machine fully works with intended state machine given, a state diagram is included with this lab along with a screenshot of the state machine assigned
+Change state is functioning
+print states is functioning
+delete state will delete the state but currently cannot check if state is deleted and you will be able to go to a deleted state still
+an attempt at garbage collection was made but it does not work, it was commented out of the code in order for the lab to run
+a quit function was added in order to exit the program without having to terminate the terminal.
+
+last tested on 3/3/2020 base commands (0, 1, q, p, c) were fully functioning, command d was half working and command g failed to run.
