@@ -1,0 +1,22 @@
+Vincent To 500824873
+
+In order to run this program, you must type in either "insertionSort" or "mergeSort" in the terminal, no arguments
+must be given when running the exe or you will recieve a error message. you will then have to type in numbers seperated
+by a space or pressing enter after each number. When you want to sort the data you've provided you must press "Ctrl + D"
+together to execute the program in the terminal.
+
+insertionSort was working as intended,last tested on 2/12/2020, produces correct output tested with input 1,2,3,4,5.
+result given was 4 comparisons, 0 swaps, 5 copy operations.
+
+mergeSort was running but output was not correct, last tested on 2/12/2020, used inputs 1,2,3,4,5 and result given was
+11 comparisons, 5 swaps, 5 copy operations.
+
+
+ANALYSIS
+1. for insertionSort, we will use the example of 5 terms, 1,2,3,4,5. the best case would result in 4 comparisons,
+0 swaps and 5 copy operations. the time complexity for insertionSort's best case is Omega(n). worst case would be
+the order 5,4,3,2,1 which yeilds 10 comparisons, 10 swaps, 5 copy operations. the time complexity for insertionSort's
+worst case is O(n^2). average case of sorting would be somewhere inbetween Omega(n) and O(n^2).
+
+2. for mergeSort, using the same example as used in insertionSort, mergeSort's best case should have a time complexity
+of O(nlog(n)), this would also be the same for it's worst case making its average sorting time complexity O(nlog(n)).
