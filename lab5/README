@@ -1,0 +1,51 @@
+Summarize your lab:
+
+  Part 1:
+     Works  Yes
+     
+  Part 2:
+     Works  Yes but doesnt list the output counter
+     
+  Part 3:
+     Works  No
+
+note: an attempt was made to get part 3 working but was unable to get it functioning. part 2 will test validitiy
+correctly but does not print out the counter for which letter for an unknown reason. 
+to run each part you must use the data file and change the inputs there since for some reason the terminal does not
+work. to read from the file a command such like "validateXML <data" or "countXML <data".
+
+***ANSWERS TO QUESTIONS***
+ Question 1:
+     Which hash table collision resolution method did you use
+     (eg. chaining or open addressing)? Explain your choice
+     briefly (less than 25 words).
+ YOUR ANSWER:
+ 
+ Part 3 incomplete, hence i'm unable to answer the question.
+ 
+ 
+ 
+ Question 2:
+       Which hash function (division or multiplication) did you use?
+       How did you convert a string into a number?
+ YOUR ANSWER:
+
+ 
+ Part 3 incomplete, hence i'm unable to answer the question.
+ 
+ 
+ Question 3:
+       Another legal XML tag not used in this lab is the
+       stand-alone tag.  This kind of tag
+       combines both a start-tag and end-tag in one.
+       It is identified with a '/' (slash) preceding the
+       final >.  (For example, the <foo/>
+       is a stand-alone tag that is self balancing.
+       
+       Describe briefly how
+       you would modify Part 3 to allow this kind of tag.
+       
+ YOUR ANSWER:
+  
+
+ Part 3 incomplete, hence i'm unable to answer the question.
